@@ -12,6 +12,8 @@
 ### 1.1 Background
 When traveling to a new city, a difficult problem to solve is determining where to stay. Each city has many, many neighborhoods and making a bad pick can make or break your trip. Because of this, more often than not you need to spend a significant amount of time researching each city for activities, restaurants, entertainment, points of interest, and various other criteria in order to make a determination, which is ultimately a gamble.
 
+In order to keep the scope managable, we will begin by only using this script for cities in the United States.
+
 ### 1.2 Problem
 With this project, I aim to provide a system that users can trust to make their neighborhood stay determination for them. Using the foursquare api and sample neighborhoods from users, I will be able to make accurate and tailored recommendations for which neighborhoods users can stay in.
 
