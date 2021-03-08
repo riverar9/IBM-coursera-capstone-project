@@ -55,6 +55,7 @@ In order to obtain this value, the nearest 100 venues for the input baseline nei
 A common case wehn running this analysis was when the target nighborhood had unique entries that didn't exist in the baseline neighborhood or vice-versa. In this case, we removed any of the venues that did not exist within the baseline neighborhood. The rational for this removal was to ensure that venues unique to only the target neighborhoods would not factor negatively in the caluclation of the eucledian distance. This was the case because we are looking for neighborhoods most similar to the baseline neighborhood, regardless of wheither or not the target neighborhood had more unique neighborhoods.
 
 ![Screen Shot 2021-03-07 at 9 57 09 PM](https://user-images.githubusercontent.com/38566125/110269125-07a26200-7f91-11eb-82e0-fafa04e7427b.png)
+
 (Figure 1: The similar neighborhoods between the Baseline and target neighborhoods.)
 
 In the initial development, we used Downtown Brooklyn in New York City as the baseline in order to predict the most similar neighborhood in San Francisco. As a New York City resident, it was convenient to use a neighborhood that I am personally familiar with.
@@ -62,16 +63,22 @@ In the initial development, we used Downtown Brooklyn in New York City as the ba
 As a way to remain grounded throughout the analysis, we looked at the common venues across the target neighborhoods and the baseline neighborhood. In Figure 1 we can see the similar neighobrhoods that were used.
 
 ## 4. Results
-In using this method, we found that the most similar neighborhood to Downtown Brooklyn was SoMa in San Francisco. Using the aforementioned method, we found that the euclidean distance between Downtown Brooklyn and SoMa is 0.105. ![Screen Shot 2021-03-07 at 9 44 38 PM](https://user-images.githubusercontent.com/38566125/110267756-70d4a600-7f8e-11eb-8c3d-45159d9e8fc7.png)
+In using this method, we found that the most similar neighborhood to Downtown Brooklyn was SoMa in San Francisco. Using the aforementioned method, we found that the euclidean distance between Downtown Brooklyn and SoMa is 0.105.
+
+![Screen Shot 2021-03-07 at 9 44 38 PM](https://user-images.githubusercontent.com/38566125/110267756-70d4a600-7f8e-11eb-8c3d-45159d9e8fc7.png)
+
 (Figure 2: The 5 most similar San Francisco Neighborhoods to Downtown Brooklyn.)
 
 Figure 3 below shows the most common venues in the SoMa neighborhood.
+
 ![Screen Shot 2021-03-07 at 9 46 39 PM](https://user-images.githubusercontent.com/38566125/110268028-feb09100-7f8e-11eb-989c-42109b4cef92.png)
+
 (Figure 3: The most common venues in SoMa, San Francisco.)
 
 Comparing the results in Figure 2 to those in Figure 3, we can see that two of the venues show up at the same relative frequency.
 
 ![Screen Shot 2021-03-07 at 9 51 26 PM](https://user-images.githubusercontent.com/38566125/110268361-85656e00-7f8f-11eb-9a51-214ebb501f9c.png)
+
 (Figure 4: The most common venues in Downtown Brooklyn, NYC.)
 
 ## 5. Discussion
